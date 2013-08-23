@@ -57,4 +57,5 @@ RailsJersey::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   resource :hello, only: [:show]
+  resources :unidades, only: [:index]
 end
